@@ -201,19 +201,6 @@ After running tests, open `coverage_html/index.html` in your browser.
 - **updation**: Logs farmer updates
 - **deletion**: Logs farmer deletions
 
-## 📸 Screenshots
-
-### Home Page
-![Home Page](screenshots/home.png)
-
-### Farmer Management
-![Farmer Management](screenshots/farmers.png)
-
-### Agro Products
-![Agro Products](screenshots/products.png)
-
-*Note: Add screenshots to a `screenshots/` directory*
-
 ## 📁 Project Structure
 
 ```
@@ -244,45 +231,6 @@ farm-management-system/
     ├── TEST_CASES.md
     └── TESTING_README.md
 ```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Contribution Guidelines
-
-- Write clear commit messages
-- Add tests for new features
-- Update documentation
-- Follow Python PEP 8 style guide
-- Ensure all tests pass
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-- **Your Name** - *Initial work*
-
-## 🙏 Acknowledgments
-
-- Flask documentation
-- Bootstrap framework
-- MySQL community
-- pytest testing framework
-
-## 📞 Support
-
-For support and queries:
-- Create an issue in the repository
-- Email: your.email@example.com
 
 ## 🔮 Future Enhancements
 
