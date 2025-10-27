@@ -1,0 +1,112 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║         QUICK GUIDE: Push Farm Management System to Git             ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+STEP 1: CREATE GITHUB REPOSITORY
+─────────────────────────────────
+1. Go to https://github.com
+2. Click "New Repository" (+ icon)
+3. Name: farm-management-system
+4. Description: Web-based Farm Management System
+5. Public or Private (your choice)
+6. DO NOT initialize with README
+7. Click "Create Repository"
+
+
+STEP 2: OPEN TERMINAL/COMMAND PROMPT
+─────────────────────────────────────
+1. Open Command Prompt or PowerShell
+2. Navigate to your project folder:
+   
+   cd "C:\Users\shrik\OneDrive\Desktop\all rem stuff\Farm-management-sysem-dbmsminiproject-main\farmer system"
+
+
+STEP 3: CONFIGURE GIT (First Time Only)
+────────────────────────────────────────
+Copy and paste these commands (replace with your details):
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@gmail.com"
+
+
+STEP 4: INITIALIZE AND PUSH
+────────────────────────────
+
+Copy and paste ALL these commands ONE BY ONE:
+
+git init
+
+git add .
+
+git commit -m "Initial commit: Farm Management System with testing framework"
+
+git branch -M main
+
+git remote add origin https://github.com/YOUR_USERNAME/farm-management-system.git
+
+git push -u origin main
+
+
+⚠️ IMPORTANT: Replace YOUR_USERNAME with your actual GitHub username!
+
+
+STEP 5: AUTHENTICATION
+───────────────────────
+When prompted for password, use Personal Access Token (not your password):
+
+1. Go to GitHub → Settings → Developer Settings
+2. Personal Access Tokens → Tokens (classic)
+3. Generate New Token
+4. Select "repo" scope
+5. Copy the token
+6. Paste as password when pushing
+
+
+═══════════════════════════════════════════════════════════════════════
+
+FUTURE UPDATES (After Initial Push)
+────────────────────────────────────
+
+When you make changes to your code:
+
+git add .
+git commit -m "Description of your changes"
+git push
+
+
+═══════════════════════════════════════════════════════════════════════
+
+TROUBLESHOOTING
+───────────────
+
+Problem: "permission denied"
+Solution: Use Personal Access Token instead of password
+
+Problem: "repository not found"
+Solution: Check the repository URL is correct
+
+Problem: "failed to push"
+Solution: Run: git pull origin main --rebase
+         Then: git push origin main
+
+
+═══════════════════════════════════════════════════════════════════════
+
+COMPLETE COMMAND SEQUENCE (Copy-Paste)
+───────────────────────────────────────
+
+cd "farmer system"
+git init
+git add .
+git commit -m "Initial commit: Farm Management System with testing framework"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/farm-management-system.git
+git push -u origin main
+
+
+Remember to replace YOUR_USERNAME!
+
+═══════════════════════════════════════════════════════════════════════
+
+For detailed guide, see: GIT_PUSH_GUIDE.md
+
